@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+form{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+table{
+    border: 1px solid ;
+    padding: 90px;
+    border-radius: 10px;
+    background-color: lightslategrey;
+
+}
+input{
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+button{
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 25px;
+    background-color: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 35px;
+    width: 90px;
+    font-weight: 700;
+    color: white;
+
+}
+.fa-regular{
+    cursor: pointer;
+    color: yellow;
+}
+label{
+    font-weight: 900;
+    text-transform: uppercase;;
+    text-align: right;;
+}
